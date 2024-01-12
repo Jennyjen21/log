@@ -1,0 +1,45 @@
+:root {
+ --burgundy: #800020;
+ --light-burgundy: #BC8F8F;
+ --white: #FFFFFF;
+ --black: #000000;
+ --gray: #CCCCCC;
+}
+
+body {
+ font-family: 'Times New Roman', Times, serif;
+ color: var(--black);
+ background-color: var(--white);
+}
+
+.navbar-brand {
+ color: var(--burgundy);
+}
+
+.navbar-nav .nav-link {
+ color: var(--black);
+}
+
+.btn {
+ width: 200px;
+ height: 200px;
+ font-size: 1.5rem;
+ background-color: var(--burgundy);
+ color: var(--white);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.btn i {
+ font-size: 2rem;
+ margin-right: 10px;
+}
+
+.dotted-box {
+ border-style: dotted;
+}
+
+h1 {
+ color: var(--burgundy);
+}
